@@ -3,113 +3,253 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Simply Chocolate</title>
+
+<!-- Favicon -->
+     <link rel="shortcut icon" href="images/favicon.svg" type="image/svg+xml" />
+
+<!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap" rel="stylesheet">
+
+ <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+
+        <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
   </head>
   <body>
-    <!-- Header section -->
-    <header id="studio">
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="#studio">Studio</a>
+<!-- Header section -->
+<section class="header-section section" id="home">
+  <div class="header-container container">
+    <a class="header-logo" href="#">
+      <span class="header-logo-acent">SIMPLY</span> CHOCOLATE</a>
+      <svg class="header-logo-icon" width="21" height="21">
+        <use href="./images/icons.svg#favicon">
+        </use>
+      </svg>
+      <svg class="header-burger-menu" width="28" height="28">
+        <use href="./images/icons.svg#icon-menu-icon"></use>
+      </svg>
+  </div>
+</section>
+<!-- Hero section -->
+ <section class="hero-section section">
+  <div class="hero-container container">
+    <h1 class="hero-title">Treat yourself or a loved one 
+to our finest ingredients for a moment of pure delight!</h1>
+<div class="hero-wrapper">
+  <button class="hero-btn acent-btn btn" type="submit">Buy now</button>
+  <button class="hero-btn btn" type="submit">How it’s made</button>
+</div>
+  <div class="hero-link-container">
+    <a class="hero-link" href="#benefits" >scroll down</a>
+      <div class="hero-icon-container">
+        <svg class="hero-icon" width="16" height="16">
+          <use href="./images/icons.svg#icon-arrow-down"></use>
+        </svg>
+      </div>
+  </div>
+  </a>
+  </div>
+ </section>
+ <!-- Benefits section -->
+  <section class="benefits-section section">
+    <div class="benefits-container container">
+      <h2 class="visually-hidden">Benefits of Simply Chocolate</h2>
+      <ul class="benefits-list">
+        <li class="benefits-list-item">
+          <div class="benefits-wrapper">
+            <svg class="benefits-icon" width="32" height="32">
+              <use  href="./images/icons.svg#icon-chocolate"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-list-title">Unsurpassed taste</h3>
+          <p class="benefits-list-text">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="benefits-wrapper">
+            <svg class="benefits-icon" width="32" height="32">
+              <use href="./images/icons.svg#icon-coin"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-list-title">Affordable price</h3>
+          <p class="benefits-list-text">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.</p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="benefits-wrapper">
+            <svg class="benefits-icon" width="32" height="32">
+              <use href="./images/icons.svg#icon-spoon"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-list-title">Own production</h3>
+          <p class="benefits-list-text">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Ingridients section -->
+   <section class="ingridients-section section">
+    <div class="ingridients-container container">
+      <h2 class="ingridients-title">It all adds up to one exceptional <span class="acent-text">taste</span> sensation</h2>
+      <ul class="ingridients-list">
+        <li class="ingridients-list-item">
+          <img class="ingridients-image" src="./images/ingridients/img-1_md-min.png" alt="Milk Chocolate">
+          
+            <svg class="ingridients-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+         
+          <h3 class="ingridients-list-title">Milk Chocolate</h3>
+        </li>
+        <li class="ingridients-list-item">
+          <img class="ingridients-image" src="./images/ingridients/img-3_md-min.png" alt="Milk">
+         
+            <svg class="ingridients-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+          
+          <h3 class="ingridients-list-title">Milk</h3>
+        </li>
+        <li class="ingridients-list-item">
+          <img class="ingridients-image" src="./images/ingridients/img-4_md-min.png" alt="nuts">
+          
+            <svg class="ingridients-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+          
+          <h3 class="ingridients-list-title">Nuts</h3>
+        </li>
+        <li class="ingridients-list-item">
+          <img class="ingridients-image" src="./images/ingridients/img-2_md-min.png" alt="Semi Sweet Chocolate">
+          
+            <svg class="ingridients-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+          
+          <h3 class="ingridients-list-title">Semi Sweet Chocolate</h3>
+        </li>
+          <li class="ingridients-list-item">
+          <img class="ingridients-image" src="./images/ingridients/img-5_md-min.png" alt="Cacao">
+          
+            <svg class="ingridients-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+         
+          <h3 class="ingridients-list-title">Cacao</h3>
+        </li>
+          <li class="ingridients-list-item">
+          <img class="ingridients-image" src="./images/ingridients/img-6_md-min.png" alt="Raspberry">
+          
+            <svg class="ingridients-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+          
+          <h3 class="ingridients-list-title">Raspberry</h3>
+        </li>
+          <li class="ingridients-list-item">
+          <img class="ingridients-image" src="./images/ingridients/img-7_md-min.png" alt="Coconut Oil">
+          
+            <svg class="ingridients-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+          
+          <h3 class="ingridients-list-title">Coconut Oil</h3>
+        </li>
+      </ul>
+    </div>
+   </section>
+   <!-- Made section -->
+    <section class="made-section section">
+      <div class="made-container container">
+        <h2 class="made-title">How it’s <span class="acent-text">made</span>?</h2>
+        <div class="image-wrapper">
+          <img class="made-image" width="335" height="500" src="./images/process/image_sm@1x-min.jpg" alt="How it’s made?">
+          <svg class="made-icon" width="35" height="35">
+            <use href="./images/icons.svg#icon-play" ></use>
+          </svg>
+        </div>
+        <ul class="made-list">
+          <h3 class="made-list-title">Try  our chocolates today and discover the perfect balance of flavor</h3>
+          <li class="made-list-item">
+            <p class="made-item-text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
           </li>
-          <li>
-            <a href="">Portfolio</a>
+          <li class="made-list-item">
+            <p class="made-item-text">At the same time, prepare a water bath. Melt the butter on it.</p>
           </li>
-          <li>
-            <a href="">Contacts</a>
+          <li class="made-list-item">
+            <p class="made-item-text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</p>
+          </li>
+          <li class="made-list-item">
+            <p class="made-item-text">Heat the mixture over low heat, letting it barely boil.</p>
+          </li>
+          <li class="made-list-item">
+            <p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
           </li>
         </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com </a>
-          </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11 </a>
-          </li>
-        </ul>
-      </address>
-    </header>
-    <!-- Main section -->
-    <main>
-      <!-- Hero section -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
-      </section>
-      <!-- The basic principles -->
-
-      <section>
-        <h2 hidden>The basic principles</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!-- Our team -->
-      <section>
-        <h2 hidden>Our Team</h2>
-        <h1>Our Team</h1>
-        <ul>
-          <li>
-            <img src="./images/img-(1).jpg" alt="Mark Guerrero" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/img-1.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/img-2.jpg" alt="Camila Garcia" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="./images/img-3.jpg" alt="Daniel Wilson" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <!-- Footer section -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
+      </div>
+    </section>
+    <!-- Products section -->
+   <section class="products-section section">
+  <div class="products-container container">
+    <h2 class="products-title">Our <span class="acent-text">products</span></h2>
+    <ul class="products-list">
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-1-min.jpg" alt="Orange ">
+        <h3 class="products-item-title">Orange </h3>
+        <p class="products-item-text">Dark chocolate</p>
+        <button class="products-item-btn btn" type="submit">45 UAH</button>
+      </li>
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-2-min.jpg" alt="Apple and Cramberry">
+        <h3 class="products-item-title">Apple&Cranberry</h3>
+        <p class="products-item-text">Milk chocolate</p>
+        <button class="products-item-btn btn" type="submit">50 UAH</button>
+      </li>
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-3-min.jpg" alt="Lime and Sea Salt">
+        <h3 class="products-item-title">Lime&Sea Salt</h3>
+        <p class="products-item-text">Dark chocolate</p>
+        <button class="products-item-btn btn" type="submit">66 UAH</button>
+      </li>
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-4-min.jpg" alt="Pineapple">
+        <h3 class="products-item-title">Pineapple</h3>
+        <p class="products-item-text">Dark chocolate</p>
+        <button class="products-item-btn btn" type="submit">54 UAH</button>
+      </li>
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-5-min.jpg" alt="Classic">
+        <h3 class="products-item-title">Classic</h3>
+        <p class="products-item-text">Milk chocolate</p>
+        <button class="products-item-btn btn" type="submit">45 UAH</button>
+      </li>
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-6-min.jpg" alt="Honey">
+        <h3 class="products-item-title">Honey</h3>
+        <p class="products-item-text">Milk chocolate</p>
+        <button class="products-item-btn btn" type="submit">50 UAH</button>
+      </li>
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-7-min.jpg" alt="Roasted fruits">
+        <h3 class="products-item-title">Roasted fruits</h3>
+        <p class="products-item-text">Dark chocolate</p>
+        <button class="products-item-btn btn" type="submit">66 UAH</button>
+      </li>
+      <li class="products-list-item">
+        <img class="products-item-image" src="./images/products/img-8-min.jpg" alt="Classic">
+        <h3 class="products-item-title">Classic</h3>
+        <p class="products-item-text">White chocolate</p>
+        <button class="products-item-btn btn" type="submit">54 UAH</button>
+      </li>
+    </ul>
+  </div>
+   </section>
   </body>
 </html>
+
