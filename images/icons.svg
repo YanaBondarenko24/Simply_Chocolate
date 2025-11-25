@@ -7,7 +7,7 @@
     <symbol id="icon-menu-icon" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M4 16h24M4 8h24M4 24h24"/>
     </symbol>
-    <symbol id="icon-facebook" viewBox="0 0 32 32">
+    <symbol id="icon-facebook" viewBox="0 0 32 32" >
       <path d="M19.52 4.64h.96v3.6h-1.2c-.48 0-.96 0-1.2.24s-.24.48-.24 1.04v1.28h2.64v3.04h-2.64v13.2h-4.08V13.76H11.6v-3.04h2.16V9.68c0-1.76.24-3.04.72-3.6.72-1.04 2.16-1.52 4.32-1.52.24.08.48.08.72.08z"/>
     </symbol>
     <symbol id="icon-instagram" viewBox="0 0 32 32">
@@ -34,7 +34,7 @@
     <symbol id="icon-arrow-right" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M8.667 15.524h13.714m0 0-3.429-3.429m3.429 3.429-3.429 3.429m-3.428 11.428c8.205 0 14.857-6.652 14.857-14.857S23.729.667 15.524.667C7.319.667.667 7.319.667 15.524s6.652 14.857 14.857 14.857z"/>
     </symbol>
-    <symbol id="icon-play" viewBox="0 0 32 32" fiil="none">
+    <symbol id="icon-play" viewBox="0 0 32 32" fill:"none">
       <path d="M10.909 24V8.727l14.545 7.636-14.545 7.636z"/>
       <path stroke-width=".727" d="M31.636 16c0 8.636-7.001 15.636-15.636 15.636S.364 24.635.364 16C.364 7.364 7.365.364 16 .364S31.636 7.365 31.636 16z"/>
     </symbol>
