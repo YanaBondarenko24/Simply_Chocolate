@@ -134,7 +134,7 @@ to our finest ingredients for a moment of pure delight!</h1>
     </div>
   </section>
   <!-- Ingridients section -->
-   <section class="ingridients-section section">
+   <section class="ingridients-section section hide">
     <div class="ingridients-container container">
       <h2 class="ingridients-title">It all adds up to one exceptional <span class="acent-text">taste</span> sensation</h2>
       <ul class="ingridients-list">
@@ -226,104 +226,129 @@ to our finest ingredients for a moment of pure delight!</h1>
     </div>
    </section>
    <!-- Made section -->
-    <section class="made-section section ">
+    <section class="made-section section hide">
       <div class="made-container container">
         <h2 class="made-title">How it’s <span class="acent-text">made</span>?</h2>
-        <div class="image-wrapper">
-    <picture>
-      <source media="(max-width: 767px)" 
-      srcset="./images/process/image_sm@1x-min.jpg  1x,
-              ./images/process/image_sm@2x-min.jpg  2x"
-              />
-              <source media="(min-width: 768px)"
-              srcset="./images/process/image_md-min.jpg    1x,
-              ./images/process/image_md@2-min.jpg  2x
-              "
-              />
-              <source media="(min-width: 1136px)"
-              srcset="./images/process/image-min.jpg    1x,
-              ./images/process/image@2-min.jpg  2x
-              "
-              />
-              <img class="made-image" width="335" height="500" 
-        src="./images/process/image_sm@1x-min.jpg" alt="How it’s made?"
-      />
-    
-    </picture>
-      
-          <svg class="made-icon" width="35" height="35">
-            <use href="./images/icons.svg#icon-play" ></use>
-          </svg>
+        <div class="contant-wrapper">
+          <div class="image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" 
+                srcset="/images/process/image_sm@1x-min.jpg 1x,
+                ./images/process/image_sm@2x-min.jpg 2x"
+          
+                />
+                <source media="(min-width: 768px)"
+                srcset="./images/process/image_md-min.jpg 1x,
+                ./images/process/image_md@2x-min.jpg 2x"
+                />
+                <source media="(min-width: 1136px)"
+                srcset="./images/process/image@2x-min.jpg 1x,
+                ./images/process/image@2x-min.jpg 2x
+                "
+                />
+                <img class="made-image" width="335" height="500"
+          src="./images/process/image_sm@1x-min.jpg" alt="How it’s made?"
+                />
+              
+              </picture>
+            <svg class="made-icon" width="35" height="35">
+              <use href="./images/icons.svg#icon-play" ></use>
+            </svg>
+          </div>
+          <ul class="made-list">
+            <h3 class="made-list-title">Try  our chocolates today and discover the perfect balance of flavor</h3>
+            <li class="made-list-item">
+              <p class="made-item-text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
+            </li>
+            <li class="made-list-item">
+              <p class="made-item-text">At the same time, prepare a water bath. Melt the butter on it.</p>
+            </li>
+            <li class="made-list-item">
+              <p class="made-item-text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</p>
+            </li>
+            <li class="made-list-item">
+              <p class="made-item-text">Heat the mixture over low heat, letting it barely boil.</p>
+            </li>
+            <li class="made-list-item">
+              <p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
+            </li>
+          </ul>
         </div>
-        <ul class="made-list">
-          <h3 class="made-list-title">Try  our chocolates today and discover the perfect balance of flavor</h3>
-          <li class="made-list-item">
-            <p class="made-item-text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
-          </li>
-          <li class="made-list-item">
-            <p class="made-item-text">At the same time, prepare a water bath. Melt the butter on it.</p>
-          </li>
-          <li class="made-list-item">
-            <p class="made-item-text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</p>
-          </li>
-          <li class="made-list-item">
-            <p class="made-item-text">Heat the mixture over low heat, letting it barely boil.</p>
-          </li>
-          <li class="made-list-item">
-            <p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
-          </li>
-        </ul>
       </div>
     </section>
     <!-- Products section -->
-   <section class="products-section section hide">
+   <section class="products-section section ">
   <div class="products-container container">
     <h2 class="products-title">Our <span class="acent-text">products</span></h2>
     <ul class="products-list">
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-1-min.jpg" alt="Orange" width="230">
+        <img class="products-item-image" 
+        srcset="/images/products/img-1-min.jpg 1x,
+        ./images/products/img-1@2x-min.jpg 2x"
+        src="./images/products/img-1-min.jpg" alt="Orange" width="230">
         <h3 class="products-item-title">Orange </h3>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">45 UAH</button>
       </li>
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-2-min.jpg" alt="Apple and Cramberry" width="230">
+        <img class="products-item-image" 
+        srcset="/images/products/img-2-min.jpg 1x,
+        ./images/products/img-2@2x-min.jpg 2x"
+        src="./images/products/img-2-min.jpg" alt="Apple and Cramberry" width="230">
         <h3 class="products-item-title">Apple&Cranberry</h3>
         <p class="products-item-text">Milk chocolate</p>
         <button class="products-item-btn btn" type="submit">50 UAH</button>
       </li>
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-3-min.jpg" alt="Lime and Sea Salt" width="230">
+        <img class="products-item-image" 
+        srcset="/images/products/img-3-min.jpg 1x,
+        ./images/products/img-3@2x-min.jpg 2x"
+        src="./images/products/img-3-min.jpg" alt="Lime and Sea Salt" width="230">
         <h3 class="products-item-title">Lime&Sea Salt</h3>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">66 UAH</button>
       </li>
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-4-min.jpg" alt="Pineapple" width="230">
+        <img class="products-item-image" 
+        srcset="/images/products/img-4-min.jpg 1x,
+        ./images/products/img-4@2x-min.jpg 2x"
+        src="./images/products/img-4-min.jpg" alt="Pineapple" width="230">
         <h3 class="products-item-title">Pineapple</h3>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">54 UAH</button>
       </li>
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-5-min.jpg" alt="Classic" width="230">
+        <img class="products-item-image" 
+        srcset="/images/products/img-5-min.jpg 1x,
+        ./images/products/img-5@2x-min.jpg 2x"
+        src="./images/products/img-5-min.jpg" alt="Classic" width="230">
         <h3 class="products-item-title">Classic</h3>
         <p class="products-item-text">Milk chocolate</p>
         <button class="products-item-btn btn" type="submit">45 UAH</button>
       </li>
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-6-min.jpg" alt="Honey" width="230">
+        <img class="products-item-image"
+        srcset="/images/products/img-6-min.jpg 1x,
+        ./images/products/img-6@2x-min.jpg 2x" 
+        src="./images/products/img-6-min.jpg" alt="Honey" width="230">
         <h3 class="products-item-title">Honey</h3>
         <p class="products-item-text">Milk chocolate</p>
         <button class="products-item-btn btn" type="submit">50 UAH</button>
       </li>
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-7-min.jpg" alt="Roasted fruits" width="230">
+        <img class="products-item-image" 
+        srcset="/images/products/img-7-min.jpg 1x,
+        ./images/products/img-7@2x-min.jpg 2x"
+        src="./images/products/img-7-min.jpg" alt="Roasted fruits" width="230">
         <h3 class="products-item-title">Roasted fruits</h3>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">66 UAH</button>
       </li>
       <li class="products-list-item">
-        <img class="products-item-image" src="./images/products/img-8-min.jpg" alt="Classic" width="230">
+        <img class="products-item-image" 
+        srcset="/images/products/img-8-min.jpg 1x,
+        ./images/products/img-8@2x-min.jpg 2x"
+        src="./images/products/img-8-min.jpg" alt="Classic" width="230">
         <h3 class="products-item-title">Classic</h3>
         <p class="products-item-text">White chocolate</p>
         <button class="products-item-btn btn" type="submit">54 UAH</button>
@@ -332,7 +357,7 @@ to our finest ingredients for a moment of pure delight!</h1>
   </div>
    </section>
    <!-- Sellers section -->
-    <section class="sellers-section section hide">
+    <section class="sellers-section section ">
       <div class="sellers-container container">
         <h2 class="sellers-title"><span class="acent-text">Top</span> sellers</h2>
         <ul class="sellers-list">
