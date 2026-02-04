@@ -51,22 +51,22 @@
               <p class="header-social-item-text social-item-text" hidden>Social networks</p>
               <ul class="header-social-list">
                 <li class="header-social-list-item">
-                  <a href="" class="header-social-item-link"> <svg class="header-social-item-icon" width="40" height="40"></svg></a>
-                 
-                    <use href="./images/icons.svg#icon-facebook"></use>
+                  <a href="" class="header-social-item-link"> <svg class="header-social-item-icon" width="40" height="40">
+                  <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
+                </a>
                 </li>
                 <li class="header-social-list-item">
-                  <a href="" class="header-social-item-link"> <svg class="header-social-item-icon" width="40" height="40"></svg></a>
-                 
-                    <use href="./images/icons.svg#icon-instagram"></use>
+                  <a href="" class="header-social-item-link"> <svg class="header-social-item-icon" width="40" height="40">
+                   <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
+                </a>
                 </li>
                 <li class="header-social-list-item">
-                  <a href="" class="header-social-item-link"><svg class="header-social-item-icon" width="40" height="40"></svg></a>
-                  
-                    <use href="./images/icons.svg#icon-twitter"></use>
+                  <a href="" class="header-social-item-link"><svg class="header-social-item-icon" width="40" height="40">
+                 <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
+                </a>
                 </li>
               </ul>
             </div>
@@ -277,7 +277,7 @@ to our finest ingredients for a moment of pure delight!</h1>
       </div>
     </section>
     <!-- Products section -->
-   <section class="products-section section ">
+   <section class="products-section section hide">
   <div class="products-container container">
     <h2 class="products-title">Our <span class="acent-text">products</span></h2>
     <ul class="products-list">
@@ -357,27 +357,45 @@ to our finest ingredients for a moment of pure delight!</h1>
   </div>
    </section>
    <!-- Sellers section -->
-    <section class="sellers-section section ">
+    <section class="sellers-section section hide">
       <div class="sellers-container container">
         <h2 class="sellers-title"><span class="acent-text">Top</span> sellers</h2>
         <ul class="sellers-list">
           <li class="sellers-list-item">
-            <img class="sellers-item-image" src="./images/sellers/img-1_md-min.jpg" alt="CHOCOLATE WITH NUTS" width="335" >
+            <div class="sellers-image-wrapper">
+              <img class="sellers-item-image"
+              srcset="./images/sellers/img-1-min.jpg 1x,
+              ./images/sellers/img-1@2x-min.jpg 2x"
+              src="./images/sellers/img-1_md-min.jpg" alt="CHOCOLATE WITH NUTS" width="335" >
+              <p class="overlay-text">Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry of taste.</p>
+            </div>
             <h3 class="sellers-item-title">CHOCOLATE WITH NUTS</h3>
           </li>
             <li class="sellers-list-item">
-            <img class="sellers-item-image" src="./images/sellers/img-2_md-min.jpg" alt="CHOCOLATE WITH FRUITS" width="335" >
+            <div class="sellers-image-wrapper">
+              <img class="sellers-item-image"
+              srcset="./images/sellers/img-2-min.jpg 1x,
+              ./images/sellers/img-2@2x-min.jpg 2x"
+              src="./images/sellers/img-2_md-min.jpg" alt="CHOCOLATE WITH FRUITS" width="335" >
+              <p class="overlay-text">Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry of taste.</p>
+            </div>
             <h3 class="sellers-item-title">CHOCOLATE WITH FRUITS</h3>
           </li>
             <li class="sellers-list-item">
-            <img class="sellers-item-image" src="./images/sellers/img-3_md-min.jpg" alt="DARK CHOCOLATE" width="335">
+            <div class="sellers-image-wrapper">
+              <img class="sellers-item-image"
+              srcset="./images/sellers/img-3-min.jpg 1x,
+              ./images/sellers/img-3@2x-min.jpg 2x"
+              src="./images/sellers/img-3-min.jpg" alt="DARK CHOCOLATE" width="335">
+              <p class="overlay-text ">Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry of taste.</p>
+            </div>
             <h3 class="sellers-item-title">DARK CHOCOLATE</h3>
           </li>
         </ul>
       </div>
     </section>
     <!-- Reviews section -->
-     <section class="reviews-section section hide">
+     <section class="reviews-section section">
       <div class="reviews-container container">
         <h2 class="reviews-title"><span class="acent-text">Chocolate</span> is loved</h2>
         <ul class="reviews-list">
@@ -412,19 +430,23 @@ to our finest ingredients for a moment of pure delight!</h1>
                 <ul class="footer-social-list">
                   <li class="footer-social-list-item">
                     <a href="https://www.facebook.com/" class="footer-social-item-link"
-                    target="_blank" rel="noopener noreferrer"> <svg class="footer-social-item-icon" width="40" height="40"></svg></a>
+                    target="_blank" rel="noopener noreferrer"><svg class="footer-social-item-icon" width="40" height="40">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
+                  </a>
+                      
                   </li>
                   <li class="footer-social-list-item">
-                    <a href="https://www.instagram.com/" class="footer-social-item-link" target="_blank" rel="noopener noreferrer"> <svg class="footer-social-item-icon" width="40" height="40"></svg></a>
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
+                    <a href="https://www.instagram.com/" class="footer-social-item-link" target="_blank" rel="noopener noreferrer"><svg class="footer-social-item-icon" width="40" height="40">
+                     <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg></a>
+
                   </li>
                   <li class="footer-social-list-item">
-                    <a href="https://www.twitter.com/" class="footer-social-item-link" target="_blank" rel="noopener noreferrer"><svg class="footer-social-item-icon" width="40" height="40"></svg></a>
+                    <a href="https://www.twitter.com/" class="footer-social-item-link" target="_blank" rel="noopener noreferrer"><svg class="footer-social-item-icon" width="40" height="40">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
+                  </a>
                   </li>
                 </ul>
               </div>
@@ -456,10 +478,15 @@ to our finest ingredients for a moment of pure delight!</h1>
                </ul>
              </nav>
 
-            <div class="footer-form-container">
-              <form  class="footer-form">Enter your email</form>
-              <button class="footer-form-btn btn" type="button">Subscribe</button>
-            </div>      
+           
+              <form  class="footer-form">
+                <label class="footer-form-field">
+                  <input class="footer-form-input" type="email" name="subscribe-email" placeholder="Enter your email"
+                  />
+                </label>
+              <button class="footer-form-btn btn acent-btn" type="submit">Subscribe</button>
+              </form>
+                
         </div>
       </section>
   </body>
