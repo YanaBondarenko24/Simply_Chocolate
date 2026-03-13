@@ -28,7 +28,7 @@ https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css
   </head>
   <body>
 <!-- Header section -->
-<section class="header-section section " id="home">
+<header class="header-section section " id="home">
   <div class="header-container container">
     <a class="header-logo" href="#">
       <span class="header-logo-acent">SIMPLY</span> CHOCOLATE</a>
@@ -46,7 +46,7 @@ https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css
     <nav class="header-navigation">
      <ul class="header-navigation-list">
      <li class="header-navigation-list-item">
-       <a href="#home" class="header-navigation-item-link">Home</a>
+       <a href="#products" class="header-navigation-item-link">Products</a>
      </li>
      <li class="header-navigation-list-item">
        <a href="#made" class="header-navigation-item-link">How it’s made?</a>
@@ -90,7 +90,7 @@ https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css
         </svg>
       </button>
   
-</section>
+    </header>
 <main>
 <!-- Hero section -->
  <section class="hero-section section ">
@@ -258,9 +258,11 @@ to our finest ingredients for a moment of pure delight!</h1>
                 />
               
               </picture>
-            <svg class="made-icon" width="35" height="35">
-              <use href="./images/icons.svg#icon-play" ></use>
-            </svg>
+            <div class="svg-wrapper">
+              <svg class="made-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-play" ></use>
+              </svg>
+            </div>
           </div>
           <ul class="made-list">
             <h3 class="made-list-title">Try  our chocolates today and discover the perfect balance of flavor</h3>
@@ -284,11 +286,11 @@ to our finest ingredients for a moment of pure delight!</h1>
       </div>
     </section>
     <!-- Products section -->
-   <section class="products-section section ">
+   <section class="products-section section " id = "products">
   <div class="products-container container">
     <h2 class="products-title">Our <span class="acent-text">products</span></h2>
     <ul class="products-list">
-      <li class="products-list-item">
+      <li class="products-list-item" id = "1">
         <img class="products-item-image" 
         srcset="/images/products/img-1-min.jpg 1x,
         ./images/products/img-1@2x-min.jpg 2x"
@@ -297,7 +299,7 @@ to our finest ingredients for a moment of pure delight!</h1>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">45 UAH</button>
       </li>
-      <li class="products-list-item">
+      <li class="products-list-item" id = "2">
         <img class="products-item-image" 
         srcset="/images/products/img-2-min.jpg 1x,
         ./images/products/img-2@2x-min.jpg 2x"
@@ -306,7 +308,7 @@ to our finest ingredients for a moment of pure delight!</h1>
         <p class="products-item-text">Milk chocolate</p>
         <button class="products-item-btn btn" type="submit">50 UAH</button>
       </li>
-      <li class="products-list-item">
+      <li class="products-list-item" id = "3">
         <img class="products-item-image" 
         srcset="/images/products/img-3-min.jpg 1x,
         ./images/products/img-3@2x-min.jpg 2x"
@@ -315,7 +317,7 @@ to our finest ingredients for a moment of pure delight!</h1>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">66 UAH</button>
       </li>
-      <li class="products-list-item">
+      <li class="products-list-item" id= "4">
         <img class="products-item-image" 
         srcset="/images/products/img-4-min.jpg 1x,
         ./images/products/img-4@2x-min.jpg 2x"
@@ -324,7 +326,7 @@ to our finest ingredients for a moment of pure delight!</h1>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">54 UAH</button>
       </li>
-      <li class="products-list-item">
+      <li class="products-list-item" id = "5">
         <img class="products-item-image" 
         srcset="/images/products/img-5-min.jpg 1x,
         ./images/products/img-5@2x-min.jpg 2x"
@@ -333,7 +335,7 @@ to our finest ingredients for a moment of pure delight!</h1>
         <p class="products-item-text">Milk chocolate</p>
         <button class="products-item-btn btn" type="submit">45 UAH</button>
       </li>
-      <li class="products-list-item">
+      <li class="products-list-item" id = "6">
         <img class="products-item-image"
         srcset="/images/products/img-6-min.jpg 1x,
         ./images/products/img-6@2x-min.jpg 2x" 
@@ -342,7 +344,7 @@ to our finest ingredients for a moment of pure delight!</h1>
         <p class="products-item-text">Milk chocolate</p>
         <button class="products-item-btn btn" type="submit">50 UAH</button>
       </li>
-      <li class="products-list-item">
+      <li class="products-list-item" id = "7">
         <img class="products-item-image" 
         srcset="/images/products/img-7-min.jpg 1x,
         ./images/products/img-7@2x-min.jpg 2x"
@@ -351,7 +353,7 @@ to our finest ingredients for a moment of pure delight!</h1>
         <p class="products-item-text">Dark chocolate</p>
         <button class="products-item-btn btn" type="submit">66 UAH</button>
       </li>
-      <li class="products-list-item">
+      <li class="products-list-item" id = "8">
         <img class="products-item-image" 
         srcset="/images/products/img-8-min.jpg 1x,
         ./images/products/img-8@2x-min.jpg 2x"
@@ -429,7 +431,7 @@ to our finest ingredients for a moment of pure delight!</h1>
      </section>
      </main>
      <!-- Footer section -->
-      <section class="footer-section section" id="footer">
+      <footer class="footer-section section" id="footer">
         <div class="footer-container container">
           <h2 class="footer-title"><span class="acent-text">Chocolate</span> a delicious cure for a bad day</h2>
           <div class="footer-wrapper">
@@ -494,11 +496,15 @@ to our finest ingredients for a moment of pure delight!</h1>
                 </label>
               <button class="footer-form-btn btn acent-btn" type="submit">Subscribe</button>
               </form>
+              
+      <span class="loader hide"></span>
+
                 
         </div>
-      </section>
+      </footer>
      <!-- Form section -->
       <section class="form-section section">
+        <div class="overlay-form">
         <div class="form-container container">
         <button class="close-btn" type="button" >
           <svg class="close-btn-icon" width="12" height="12">
@@ -543,7 +549,7 @@ to our finest ingredients for a moment of pure delight!</h1>
           <textarea type="text" name="comment" placeholder="Enter text"></textarea>
         </label>
         <label class="agreement-wrapper">
-        <input class="checkbox hide" type="checkbox" name="checkbox" id="checkbox" required/>
+        <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" required/>
         <span class="checkbox-custom">
           <svg class="checkbox-icon" width="20" heigth="20">
             <use href="./images/icons.svg#icon-arrow-down"></use>
@@ -555,8 +561,10 @@ to our finest ingredients for a moment of pure delight!</h1>
           </a>
         </label>
         <button class="form-reviews-btn acent-btn btn" type="submit" >Send</button>
+        <span class="loader loader-modal hide"></span>
       </form>
       </div>
+        </div>
         </div>
       </section>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -568,6 +576,7 @@ to our finest ingredients for a moment of pure delight!</h1>
     <script type="module" src="./js/modal-form.js"></script>
     <script type="module" src="./js/made-section.js"></script>
     <script type="module" src="./js/footer-form.js"></script>
+    <script type="module" src="./js/product.js"></script>
     <!-- <script type="module" src="./js/request.js"></script> -->
   </body>
 </html>
